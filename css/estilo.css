@@ -1,11 +1,11 @@
 @font-face {
-    font-family: WSunday;
-    src: url("WinterSunday.otf");
+    font-family: Tommy;
+    src: url("MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf");
 }
 
 @font-face {
-    font-family: Bellerose;
-    src: url("Bellerose.ttf");
+    font-family: Carita;
+    src: url("Carita\ Regular.otf");
 }
 
 body {
@@ -14,21 +14,25 @@ body {
 }
 
 h1 {
-    font-family: WSunday;
-    font-size: 120px;
+    font-family: Tommy;
+    font-size: 90px;
     text-align: center;
     padding: 0px;
     margin-bottom: 0px;
 }
 
 h2 {
-    font-family: WSunday;
+    font-family: Tommy;
     font-size: 48px;
     margin-bottom: 0px;
 }
 
 p {
-    font-family: Bellerose;
+    font-family: Carita;
+}
+
+.form-group {
+  font-family: Carita;
 }
 
 .navbar ul {
@@ -52,7 +56,7 @@ p {
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  font-family: Bellerose;
+  font-family: Carita;
 }
 
 .navbar li a:hover {
@@ -61,11 +65,11 @@ p {
 
 .site-footer
 {
-  background-color:#26272b;
+  background-color:rgb(153,172,193);
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#737373;
+  color:black;
 }
 
 .site-footer a
@@ -80,7 +84,7 @@ p {
 
 .copyright-text
 {
-  font-family: Bellerose;
+  font-family: Carita;
   margin:0
 }
 @media (max-width:991px)
@@ -113,8 +117,26 @@ p {
   }
 
 h3 {
-    font-family: WSunday;
+    font-family: Tommy;
     font-size: 32px;
     padding: 0px;
     margin-bottom: 0px;
+}
+
+.container{
+  padding-top: 3%;
+  text-align: center;
+}
+.row{
+  text-align: center;
+  height: 40%;
+  display: flex;
+}
+
+.image{
+  margin: auto;
+}
+img{
+  height: 50%;
+  width: 50%;
 }
